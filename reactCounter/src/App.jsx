@@ -20,7 +20,7 @@ export default function Counter() {
         <button
           className="buttons"
           onClick={increaseCount}
-          disabled={count === 100}
+          disabled={count === 10}
         >
           +
         </button>
