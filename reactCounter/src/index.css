@@ -1,0 +1,43 @@
+.counterContainer {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+}
+
+.header {
+  font-family: monospace;
+  font-size: 4rem;
+  color: green;
+  margin-bottom: 1.7rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #ed8657;
+}
+
+.buttons:hover {
+  opacity: 0.7;
+}
+.limitMessage {
+  font-size: 2rem;
+  color: red;
+  background-color: yellow;
+  padding: 5px;
+}
